@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "node --watch index.js",
+    "start": "node --watch index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -18,7 +18,5 @@
     "multer": "^2.4.0",
     "resend": "^6.32.1"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
-  }
+ 
 }
